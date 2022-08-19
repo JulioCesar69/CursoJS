@@ -1,10 +1,13 @@
 //tipo de dato string 
 var nombre = "Julio";
-console.log(nombre);
+console.log(typeof nombre);
+
+nombre = 10;
+console.log(typeof nombre);
 
 //tipo de dato numerico
 var numero = 1000;
-console.log(numero);
+console.log(typeof numero);
 
 //tipo de dato object
 var objeto = {
@@ -12,4 +15,4 @@ var objeto = {
     apellido: "Lopez",
     telefono: "9530000000"
 }
-console.log(objeto);
+console.log(typeof objeto);
